@@ -1,0 +1,29 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2px 0px;
+  text-align: center;
+  background: #eee
+}
+
+nav {
+  padding: 3px;
+  background: #eee;
+}
+
+.nav-link {
+  text-decoration: none;
+  border: solid 1px;
+}
+
+.app-container{
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.page-title {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+

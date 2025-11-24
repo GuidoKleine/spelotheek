@@ -1,10 +1,10 @@
-import './App.css'
+import './styling/App.css'
 
 function App() {
   return (
     <>
-      <div>
-    <h1>Speelotheek Woerden</h1>
+      <div className='app-container'>
+        <h1 className='page-title'>Speelotheek Woerden</h1>
       </div>
     </>
   )
