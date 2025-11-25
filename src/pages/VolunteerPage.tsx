@@ -1,7 +1,7 @@
 function VolunteerPage() {
   return (
     <>
-      <h2>Vrijwillegers pagina</h2>
+      <h2>Vrijwilligers pagina</h2>
     </>
   )
 }
