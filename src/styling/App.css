@@ -1,24 +1,22 @@
 #root {
-  max-width: 100%;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 2px 0px;
   text-align: center;
-  background: #eee
-}
-
-nav {
-  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #eee;
 }
 
-.nav-link {
-  text-decoration: none;
-  border: solid 1px;
-}
-
-.app-container{
+.app-container {
+  padding: 15px;
+  width: 100%;
   background: #ffffff;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page-title {
