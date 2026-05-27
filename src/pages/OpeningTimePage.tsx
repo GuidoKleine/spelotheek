@@ -3,7 +3,7 @@ function OpeningTimesPage() {
     <>
       <h2>Openingstijden pagina</h2>
     </>
-  )
+  );
 }
 
-export default OpeningTimesPage
+export default OpeningTimesPage;

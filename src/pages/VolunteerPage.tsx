@@ -3,7 +3,7 @@ function VolunteerPage() {
     <>
       <h2>Vrijwilligers pagina</h2>
     </>
-  )
+  );
 }
 
-export default VolunteerPage
+export default VolunteerPage;
