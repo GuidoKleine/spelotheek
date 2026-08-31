@@ -1,0 +1,1 @@
+export const CATALOGUE_CATEGORIES = '/catalogus/categorie'

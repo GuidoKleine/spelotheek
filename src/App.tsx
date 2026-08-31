@@ -7,6 +7,7 @@ import CatalogusPage from './pages/CatalogusPage.tsx';
 import OpeningTimesPage from './pages/OpeningTimePage.tsx';
 import NavBar from './components/Navigation.tsx';
 import LogoHeader from './components/LogoHeader.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='openingstijden' element={<OpeningTimesPage />} />
         </Routes>
       </div>
+      <Footer />
       </BrowserRouter>
     </>
   )
