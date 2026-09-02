@@ -3,6 +3,7 @@
   display: flex;
   background: url(../assets/personalBanner.png) no-repeat right bottom #0C1A3E;
   padding-top: 20px;
+  z-index: 1;
 }
 
 .logo {

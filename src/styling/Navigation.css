@@ -8,17 +8,27 @@
   box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-link {
+  .navBar__menu {
+    display: none;
+  }
+
+.navBar__link {
   color: #333;
-  display: inline;
   border-right: solid black;
   height: 100%;
   text-decoration: none;
-  padding: 6px 10px;
+  padding: 0px 10px;
   border-right: 1px solid #ddd;
   font-weight: bold;
 }
-.nav-link:hover {
+.navBar__link:hover {
   color: white;
   background: #0c1a3e;
 }
+
+@media( min-width: 500px) {
+  .navBar__menu {
+    display: inline;
+  }
+}
+
