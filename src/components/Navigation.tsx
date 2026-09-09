@@ -1,4 +1,4 @@
-import '../styling/Navigation.css';
+import '../styling/components/Navigation.css';
 import { Link } from 'react-router';
 import NavHamburger from './NavHamburger.tsx';
 

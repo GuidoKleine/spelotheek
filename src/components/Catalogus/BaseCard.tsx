@@ -1,4 +1,4 @@
-import '../../styling/Catalogus/BaseCard.css';
+import '../../styling/components/Catalogus/BaseCard.css';
 
 export default function BaseCard() {
   return (

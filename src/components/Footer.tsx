@@ -1,14 +1,14 @@
-import "../styling/Footer.css";
+import "../styling/components/Footer.css";
 
 function Footer() {
   return (
     <>
       <div className="footer-contact-block">
-        <div>
-          <p className="contact-information">Speelotheek Woerden</p>
-          <p className="contact-information">Tournoysveld 94</p>
-          <p className="contact-information">3443 EW Woerden</p>
-          <p className="contact-information">
+        <div className="contact-information">
+          <p>Speelotheek Woerden</p>
+          <p>Tournoysveld 94</p>
+          <p>3443 EW Woerden</p>
+          <p>
             Contact (alleentijdens openingstijden):
           </p>
         </div>

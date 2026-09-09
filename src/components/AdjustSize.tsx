@@ -1,4 +1,4 @@
-import '../styling/AdjustSize.css';
+import '../styling/components/AdjustSize.css';
 
 function AdjustSize() {
   return (

@@ -1,4 +1,4 @@
-import '../styling/LogoHeader.css';
+import '../styling/components/LogoHeader.css';
 import logo from '../assets/spelogo-test.png';
 
 

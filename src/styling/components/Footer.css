@@ -1,0 +1,21 @@
+.footer-contact-block {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+}
+
+.contact-information {
+      margin-left: 5px;
+      margin-top: 5px;
+  }
+
+.contact-information p {
+  margin: 0px;
+ }
+
+.contact-information-list {
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    list-style: none;
+  }

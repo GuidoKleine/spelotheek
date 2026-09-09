@@ -1,24 +1,16 @@
-body {
-  background-color: #0c9be7;
-}
 
 #root {
-  max-width: 1050px;
+  height: 100%;
   margin: 0 auto;
-  padding: 2px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #eee;
+  max-width: 1050px;
 }
 
 .app-container {
+  height: 100%;
   background: #ffffff;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
 }
 
 .page-title {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
-import '../styling/navHamburger.css';
+import '../styling/components/navHamburger.css';
 
 export default function NavHamburger() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);

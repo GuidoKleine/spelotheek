@@ -1,4 +1,6 @@
-function HomePage() {
+import "../styling/pages/HomePage.css";
+
+export default function HomePage() {
   return (
     <>
       <section className="intro-block">
@@ -28,5 +30,3 @@ function HomePage() {
     </>
   );
 }
-
-export default HomePage;
