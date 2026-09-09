@@ -1,3 +1,7 @@
+body {
+  background-color: #0c9be7;
+}
+
 #root {
   max-width: 1050px;
   margin: 0 auto;
@@ -10,7 +14,6 @@
 }
 
 .app-container {
-  padding: 15px;
   background: #ffffff;
   border-radius: 5px;
   display: flex;

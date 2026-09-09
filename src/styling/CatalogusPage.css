@@ -1,3 +1,7 @@
-.catalogusContainer {
-  display: flex
+.catalogus-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
+  margin-bottom: 10px;
 }

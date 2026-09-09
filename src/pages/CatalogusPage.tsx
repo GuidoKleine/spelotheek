@@ -5,7 +5,11 @@ function CatalogusPage() {
   return (
     <>
       <h2>Catalogus Pagina</h2>
-      <div className='catalogusContainer'>
+      <div className='catalogus-grid-container'>
+        <BaseCard />
+        <BaseCard />
+        <BaseCard />
+        <BaseCard />
         <BaseCard />
         <BaseCard />
         <BaseCard />
