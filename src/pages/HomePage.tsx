@@ -3,7 +3,7 @@ import "../styling/pages/HomePage.css";
 export default function HomePage() {
   return (
     <>
-      <section className="intro-block">
+      <section className="intro-block class-2">
         <h2>Welkom</h2>
         <p>
           Al meer dan 20 jaar kunnen kinderen zich uitleven met nieuw speelgoed

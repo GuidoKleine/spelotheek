@@ -5,6 +5,12 @@
   justify-content: center;
 }
 
+.catalogus-intro-block {
+  margin: 0px 30px;
+}
+
+.temp-class {}  
+
 .catalogus-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
