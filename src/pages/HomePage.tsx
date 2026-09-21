@@ -1,4 +1,4 @@
-import "../styling/pages/HomePage.css";
+import "@/styling/pages/HomePage.css";
 
 export default function HomePage() {
   return (

@@ -1,5 +1,5 @@
-import BaseCard from '../components/Catalogus/BaseCard';
-import catagorieData from '../../test/mocks/stubs/catagorieData.json';
+import BaseCard from '@/components/Catalogus/BaseCard';
+import catagorieData from '../../test/stubs/payloads/catagorieData.json';
 
 function CatalogusPage() {
   const CatalogusList = catagorieData.map((categorie) => (

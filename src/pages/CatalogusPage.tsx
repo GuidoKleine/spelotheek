@@ -1,6 +1,6 @@
 import BaseCard from '../components/Catalogus/BaseCard';
-import '../styling/pages/CatalogusPage.css';
-import catalogusData from '../../test/mocks/stubs/catalogusData.json';
+import '@/styling/pages/CatalogusPage.css';
+import catalogusData from '../../test/stubs/payloads/catalogusData.json';
 
 function CatalogusPage() {
   const CatalogusList = catalogusData.map((categorie) => (

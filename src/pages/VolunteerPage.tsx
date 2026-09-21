@@ -1,4 +1,4 @@
-import '../styling/pages/VolunteerPage.css'
+import '@/styling/pages/VolunteerPage.css'
 
 function VolunteerPage() {
   return (
