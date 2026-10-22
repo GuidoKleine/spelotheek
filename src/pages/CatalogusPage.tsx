@@ -1,8 +1,19 @@
 import BaseCard from '../components/Catalogus/BaseCard';
 import '@/styling/pages/CatalogusPage.css';
 import catalogusData from '../../test/stubs/payloads/catalogusData.json';
+import { useEffect } from 'react';
 
 function CatalogusPage() {
+  useEffect(() => {
+    async function fetchData() {
+      await fetch("http://localhost:8080/catalogus")
+     .then(response => response.json())
+     .then(data => console.log(data));
+    };
+
+    fetchData();
+  },[])
+
   const CatalogusList = catalogusData.map((categorie) => (
     <a href='.'>
       <BaseCard

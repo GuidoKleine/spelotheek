@@ -1,11 +1,8 @@
-import { http, HttpResponse } from "msw"
+import { http, HttpResponse } from "msw";
+import catalogusData from '../payloads/catalogusData.json';
  
 export const handlers = [
-  http.get('https://api.example.com/user', () => {
-    return HttpResponse.json({
-      id: 'abc-123',
-      firstName: 'John',
-      lastName: 'Maverick',
-    })
+  http.get('/catalogus', () => {
+  return HttpResponse.json(catalogusData)
   }),
 ]
