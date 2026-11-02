@@ -1,10 +1,10 @@
 [
-  { "title": "Bewegings speelgoed", "img": "" },
-  { "title": "Zintuigelijke speelgoed", "img": "" },
-  { "title": "Fantasie speelgoed", "img": "" },
-  { "title": "Expressie speelgoed", "img": "" },
-  { "title": "Spelletjes", "img": "" },
-  { "title": "Puzzels", "img": "" },
-  { "title": "Bouw- en Constructie speelgoed", "img": "" },
-  { "title": "Themadozen", "img": "" }
+  { "id": "0", "title": "Bewegings speelgoed", "img": "" },
+  { "id": "1", "title": "Zintuigelijke speelgoed", "img": "" },
+  { "id": "2", "title": "Fantasie speelgoed", "img": "" },
+  { "id": "3", "title": "Expressie speelgoed", "img": "" },
+  { "id": "4", "title": "Spelletjes", "img": "" },
+  { "id": "5", "title": "Puzzels", "img": "" },
+  { "id": "6", "title": "Bouw- en Constructie speelgoed", "img": "" },
+  { "id": "7", "title": "Themadozen", "img": "" }
 ]

@@ -5,6 +5,7 @@ import MemberPage from './pages/MemberPage.tsx';
 import VolunteerPage from './pages/VolunteerPage.tsx';
 import CatalogusPage from './pages/CatalogusPage.tsx';
 import OpeningTimesPage from './pages/OpeningTimePage.tsx';
+import CategoryPage from './pages/CategoryPage.tsx';
 import NavBar from './components/Navigation.tsx';
 import LogoHeader from './components/LogoHeader.tsx';
 import Footer from './components/Footer.tsx';
@@ -21,6 +22,7 @@ function App() {
             <Route path="lid-worden" element={<MemberPage />} />
             <Route path="vrijwilligers" element={<VolunteerPage />} />
             <Route path="catalogus" element={<CatalogusPage />} />
+              <Route path="catalogus/:CategorieInfoParam" element={<CategoryPage />} />
             <Route path="openingstijden" element={<OpeningTimesPage />} />
           </Routes>
           <Footer />
