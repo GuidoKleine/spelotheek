@@ -1,16 +1,20 @@
-import ProductsData from '../../test/stubs/payloads/ProductsData.json';
-import BaseCard from '../components/Catalogus/BaseCard';
+import BaseCard from '../components/Cards/BaseCard';
+import BewegingsSpeelgoedProductsData from '../../test/stubs/payloads/BewegingsSpeelgoedProductsData.json';
+import ProductCard from '../components/Cards/ProductCard';
 import { useParams } from 'react-router';
 
 function CategoryPage() {
   const { CategorieInfoParam } = useParams();
-  const ProductsInfo = ProductsData.map((products) => (
-    <>  
-      <BaseCard 
-        key={products.id}
-        title={products.title}  
-        image={products.img}
-      />
+  const ProductsInfo = BewegingsSpeelgoedProductsData.map((products) => (
+    <>
+      <BaseCard>
+        <ProductCard
+          key={products.id}
+          title={products.title}
+          image={products.img}
+          description={products.description}
+        />
+      </BaseCard>
     </>
   ));
 
