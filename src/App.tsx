@@ -9,6 +9,7 @@ import CategoryPage from './pages/CategoryPage.tsx';
 import NavBar from './components/Navigation.tsx';
 import LogoHeader from './components/LogoHeader.tsx';
 import Footer from './components/Footer.tsx';
+import ProductPage from './pages/ProductPage.tsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="catalogus" element={<CatalogusPage />} />
               <Route path="catalogus/:CategorieInfoParam" element={<CategoryPage />} />
             <Route path="openingstijden" element={<OpeningTimesPage />} />
+            <Route path="product/:ProductTitle" element={<ProductPage />}/>
           </Routes>
           <Footer />
         </div>

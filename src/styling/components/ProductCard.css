@@ -1,0 +1,9 @@
+.productCard {
+  width: 12rem;
+  margin: 5px;
+}
+
+.productCard_button {
+  width: 100%;
+  height: 2rem;
+}
