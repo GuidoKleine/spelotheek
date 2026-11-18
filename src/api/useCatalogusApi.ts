@@ -1,5 +1,7 @@
-    export async function catalogusApi() {
-      await fetch("http://localhost:8080/catalogus")
-     .then(response => response.json())
-     .then(data => console.log(data));
-    };
+export async function getCatalogus() {
+  return await fetch('http://localhost:8080/catalogus').then((response) => {
+    return response.json().then((data) => {
+      return data;
+    });
+  });
+}

@@ -1,16 +1,26 @@
 import BaseCard from '../components/Cards/BaseCard';
 import CatalogusCard from '../components/Cards/CatalogusCard';
 import '@/styling/pages/CatalogusPage.css';
-import catalogusData from '../../test/stubs/payloads/catalogusData.json';
-import { catalogusApi } from '../api/useCatalogusApi';
-import { useEffect } from 'react';
+import { getCatalogus } from '@/api/useCatalogusApi';
+import { useEffect, useState } from 'react';
 
 function CatalogusPage() {
+type Categorie = {
+  id: string,
+  category: string,
+  title: string,
+  description: string,
+  img: string,
+}
+
+  const [catalogus, setCatalogus] = useState<Categorie[]>([]);
+
   useEffect(() => {
-    catalogusApi();
+    getCatalogus().then((data) => {
+       setCatalogus(data)});
   }, []);
 
-  const CatalogusList = catalogusData.map((categorie) => (
+  const CatalogusList = catalogus.map((categorie) => (
     <a href={`catalogus/${categorie.title}`}>
       <BaseCard>
         <CatalogusCard

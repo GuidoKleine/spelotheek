@@ -1,4 +1,4 @@
 [
-  { "id": "0", "category": "Bewegings speelgoed", "title": "Bal", "speelgoed": "Bal", "description": "Een mooie bal voor kinderen", "img": "/images/bal.jpg" },
-  { "id": "1", "category": "Bewegings speelgoed", "title": "skelter", "speelgoed": "skelter", "description": "Een mooie skelter voor kinderen om op te rijden", "img": "/images/RALLY_0x12.jpg" }
+  { "id": "0", "category": "Bewegings speelgoed", "title": "Bal", "description": "Een mooie bal voor kinderen", "img": "/images/bal.jpg" },
+  { "id": "1", "category": "Bewegings speelgoed", "title": "skelter", "description": "Een mooie skelter voor kinderen om op te rijden", "img": "/images/RALLY_0x12.jpg" }
 ]
